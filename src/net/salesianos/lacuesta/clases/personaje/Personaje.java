@@ -1,6 +1,8 @@
-package net.salesianos.lacuesta;
+package net.salesianos.lacuesta.clases.personaje;
 
-public class Personaje implements Combate{
+import net.salesianos.lacuesta.interfaces.Combate;
+
+public class Personaje implements Combate {
     private int salud;
     private int defensa;
     private int fuerza;

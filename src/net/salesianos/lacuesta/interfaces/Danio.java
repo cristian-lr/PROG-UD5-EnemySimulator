@@ -1,4 +1,4 @@
-package net.salesianos.lacuesta;
+package net.salesianos.lacuesta.interfaces;
 
 public interface Danio {
    public void recibirAtaque(int ataque);

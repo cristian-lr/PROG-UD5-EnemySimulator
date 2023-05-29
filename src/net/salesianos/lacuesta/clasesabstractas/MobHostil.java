@@ -1,6 +1,9 @@
-package net.salesianos.lacuesta;
+package net.salesianos.lacuesta.clasesabstractas;
 
-public abstract class MobHostil extends Mob implements Combate{
+import net.salesianos.lacuesta.clasesabstractas.Mob;
+import net.salesianos.lacuesta.interfaces.Combate;
+
+public abstract class MobHostil extends Mob implements Combate {
     protected int fuerza;
 
     public MobHostil(int salud,int fuerza) {

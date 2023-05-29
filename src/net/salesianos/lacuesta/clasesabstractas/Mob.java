@@ -1,4 +1,4 @@
-package net.salesianos.lacuesta;
+package net.salesianos.lacuesta.clasesabstractas;
 
 public abstract class Mob {
     protected int salud;

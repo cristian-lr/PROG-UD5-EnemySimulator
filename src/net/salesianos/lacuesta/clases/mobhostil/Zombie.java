@@ -1,4 +1,6 @@
-package net.salesianos.lacuesta;
+package net.salesianos.lacuesta.clases.mobhostil;
+
+import net.salesianos.lacuesta.clasesabstractas.MobHostil;
 
 public class Zombie extends MobHostil {
     public Zombie() {
