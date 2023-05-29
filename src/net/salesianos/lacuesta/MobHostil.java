@@ -1,7 +1,7 @@
 package net.salesianos.lacuesta;
 
 public abstract class MobHostil extends Mob implements Combate{
-    private int fuerza;
+    protected int fuerza;
 
     public MobHostil(int salud,int fuerza) {
         super(salud);
