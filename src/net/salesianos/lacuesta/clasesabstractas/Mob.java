@@ -8,4 +8,6 @@ public abstract class Mob {
     }
 
     public abstract void moverse();
+
+
 }

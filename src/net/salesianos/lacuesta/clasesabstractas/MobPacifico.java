@@ -9,6 +9,6 @@ public abstract class MobPacifico extends Mob implements Danio {
     }
 
     public void recibirAtaque(int ataque) {
-        salud-=ataque;
+        salud -= ataque;
     }
 }

@@ -7,7 +7,14 @@ public class Oveja extends MobPacifico {
         super(5);
     }
 
-    @Override
+    public int getSalud() {
+        return salud;
+    }
+
+    public void setSalud(int salud) {
+        this.salud = salud;
+    }
+
     public void moverse() {
         System.out.println("Se mueve por el campo");
     }
